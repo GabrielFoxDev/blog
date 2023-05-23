@@ -32,6 +32,9 @@ languages:
           weight: 10
 
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "GabrielFox Blog"
+    author: GabrielFox
   label:
     text: 'Home'
     icon: /apple-touch-icon.png
