@@ -3,6 +3,8 @@ languageCode: en-us
 title: GabrielFox.Dev
 theme: 'PaperMod'
 
+enableInlineShortcodes: true
+
 # Search
 outputs:
   home:
