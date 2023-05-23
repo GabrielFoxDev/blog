@@ -6,6 +6,7 @@ date: 2023-05-22T22:05:17-03:00
 tags: ["tag"]
 author: "GabrielFox"
 # author: ["Me", "You"] # multiple authors
+summary: "This is the first post, theres more text here than in it."
 showToc: true
 TocOpen: false
 draft: false
