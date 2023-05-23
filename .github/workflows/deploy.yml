@@ -15,6 +15,9 @@ jobs:
         with:
           submodules: true
 
+      - name: create gh-pages branch if not exist
+        uses: christopherdavenport/create-ghpages-ifnotexists@v1
+
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@e9fa2e522f33729260a177103c97bf3f8ca061c1
         with:
