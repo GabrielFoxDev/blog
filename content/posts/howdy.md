@@ -12,8 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Description"
-canonicalURL: "https://canonical.url/to/page"
+description: "Nothing interesting on this one."
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
