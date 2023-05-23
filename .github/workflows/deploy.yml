@@ -1,0 +1,21 @@
+name: Publish Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@e9fa2e522f33729260a177103c97bf3f8ca061c1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
