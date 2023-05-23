@@ -1,12 +1,12 @@
 ---
-title: "Howdy"
+title: "Ouhai"
 date: 2023-05-22T22:05:17-03:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["tag"]
 author: "GabrielFox"
 # author: ["Me", "You"] # multiple authors
-summary: "This is the first post, theres more text here than in it."
+summary: "This is the first post, for testing purposes. You know the drill."
 showToc: true
 TocOpen: false
 draft: false
@@ -18,7 +18,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -37,4 +37,8 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Page
+## Hey!!
+
+Welcome to my replicated place on the Interwebs! : )
+
+There's not much to see right now, so do make sure to come back at a later time.

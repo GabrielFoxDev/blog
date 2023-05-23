@@ -1,4 +1,3 @@
-baseURL: https://GabrielFox.Dev/
 languageCode: en-us
 title: GabrielFox.Dev
 theme: 'PaperMod'
@@ -11,6 +10,7 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+
 languages:
   en:
     languageName: 'English'
@@ -37,34 +37,47 @@ params:
   description: 'GabrielFox Blog'
   author: GabrielFox
 
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ['title', 'permalink', 'summary', 'content']
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
 
-  # profile-mode
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 0.4
+  #   minMatchCharLength: 0
+  #   keys: ['title', 'permalink', 'summary', 'content']
+
   profileMode:
     enabled: false # needs to be explicitly set
     title: GabrielFox.Dev
-    subtitle: "Here you'll find"
+    subtitle: ''
     imageUrl: '#'
     # imageWidth: 120
     # imageHeight: 120
-    imageTitle: my image
+    # imageTitle: my image
     buttons:
       - name: Posts
         url: posts
       - name: Tags
         url: tags
 
-  # home-info mode
   homeInfoParams:
-    Title: 'GabrielFox.Dev'
-    Content: Welcome to my blog
+    Title: "Gabriel's Replicated Web Corner"
+    Content: |
+      At some point, every programmer develops an itch for its own blog.
+
+      This is my shot at it. Here you'll find random musings, side projects,
+
+      some tips and, honestly, what ever I feel like sharing.
+
+      Fasten your seatbelts.
+
     buttons:
       - name: Posts
         url: posts
@@ -78,3 +91,5 @@ params:
       url: 'https://github.com/GabrielFoxDev'
     - name: linkedin
       url: 'https://linkedin.com/in/GabrielFoxDev'
+    - name: rss
+      url: index.xml
