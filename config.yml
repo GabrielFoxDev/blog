@@ -68,16 +68,17 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Gabriel's Replicated Web Corner"
+    Title: "Gabriel's Replicated Weblog"
     Content: |
-      At some point, every programmer develops an itch for its own blog.
+      Welcome to my redundant repository of random musings, side projects and tips & tricks.
 
-      This is my shot at it. Here you'll find random musings, side projects,
+      Fasten your seatbelts. 
 
-      some tips and, honestly, what ever I feel like sharing.
-
-      Fasten your seatbelts.
-
+      Replicas: 
+      [Vercel](https://v.gabrielfox.dev) |
+      [GitHub](https://g.gabrielfox.dev) |
+      [Cloudflare](https://c.gabrielfox.dev) |
+      [Netlify](https//n.gabrielfox.dev)
     buttons:
       - name: Posts
         url: posts
